@@ -1,0 +1,137 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    
+    align-items: center;
+    
+    
+    
+}
+.navbar{width: 100%;
+    background-color: rgb(43, 226, 95);
+    height: 60px;
+}
+.navbar img{
+    width: 100px;
+    height: 60px;
+    margin: 10px;
+}
+.keralashort h2{
+    text-align: center;
+    font-weight: 700px;
+    color: green;
+    word-spacing: 1px;
+}
+.keralashort p{
+    font-weight: 400px;
+    color: rgb(13, 235, 13);
+}
+.keralashort{
+    text-align: center;
+
+}
+.box1 p{
+    
+    color: green;
+    letter-spacing: 1px;
+    font-size: 20px;
+
+}
+.box2 p{
+    
+    color: green;
+    letter-spacing: 1px;
+    font-size: 20px;
+
+}
+.box2 col-3{
+    margin-left: 5px;
+}
+.box3 p{
+    
+    color: green;
+    letter-spacing: 1px;
+    font-size: 20px;
+
+}
+.kerala img{
+    width: 400px;
+    height: 600px;
+
+}
+
+
+
+.img-wrapper{
+    position: relative;
+    overflow: hidden;
+}
+.img-wrapper{
+    display: block;
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+}
+.img-wrapper >.contant{
+    position: absolute;
+    inset: 0;
+    font-size:1rem;
+    padding: 1;
+    background: rgba(255, 255, 255, .4);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.nav-item a:hover{
+    color: orange;
+}
+
+
+
+
+.img-wrapper img:hover {
+    transform: scale(1.5);
+}
+body{background-color: rgb(51, 98, 106);}
+
+
+
+
+    
+
+    
+    
+.category a{
+        color: white;
+
+}
+    
+.category a:hover{
+        color: rgb(239, 200, 128);
+        margin-left: 6px;
+        size: 30px;
+}
+.ajil a img{
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        background-color: aliceblue;
+        margin: 0 10px 10px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: green;
+        transition: 0.5ms;
+
+}
+.ajil a img:hover{
+        background-color: rgb(209, 146, 107);
+        padding: 5px;
+}
+
+    
+
