@@ -12,27 +12,34 @@
 <body>
     <div class="container">
         <div class="form-box">
-            <form action="" name="formfill" onsubmit="return validation()" >
+            <form action="" name="formfill" >
                 <h2>Register</h2>
                 <div class="input-box">
-                    <p id="result">head</p>
-                    <input type="text" name="username" placeholder="Username">
+                    <input type="text"  id="username" placeholder="Username" >
                     <i class='bx bxs-user'></i>
                 </div>
+                <span id="user_error"></span>
+                
                 <div class="input-box">
-                    <input type="email" name="email" placeholder="Email">
+                    <input type="email"  id="email" placeholder="Email">
                     <i class='bx bxl-gmail'></i>
                 </div>
+                <span id="email_error"></span>
+
                 <div class="input-box">
-                    <input type="password" name="password" placeholder="Password">
-                    <i class='bx bx-lock-alt'></i>
+                    <input type="password"  id="password" placeholder="Password">
+                    <i class='bx bx-lock-alt'></i> 
                 </div>
+                <span id="password_error"></span>
+
                 <div class="input-box">
-                    <input type="password" name="cpassword" placeholder="Confirm Password">
+                    <input type="password"  id="password2" placeholder="Confirm Password">
                     <i class='bx bxs-lock-alt' ></i>
                 </div>
+                <span id="password1_error"></span>
+
                 <div class="button">
-                    <input type="submit" value="Register" class="btn">
+                    <input type="submit" value="Register" id="btn" class="btn">
                 </div>
                 <div class="group">
                     <span><a href="#">Forget-password</a></span>
@@ -40,16 +47,11 @@
                 </div>
             </form>
         </div>
-        <div class="popup" id="popup">
-            <i class='bx bx-check'></i>
-            <h2>Thank you!</h2>
-            <p>your were Registration sucessfully. Thanks!</p>
-            <a href="#"><button onclick="CloseSlide()">OK</button></a>
-        </div>
+        
     </div>
     
     
-   <script src="./signupvalidation"></script>
+   <script src="./signupvalidation.js"></script>
       
     
   
